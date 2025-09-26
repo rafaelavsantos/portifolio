@@ -2,6 +2,7 @@ import './Welcome.css'
 
 import { Button } from "@mui/material";
 import Typography from '@mui/joy/Typography';
+import foto from '../../../assets/foto.png';
 
 export default function Welcome() {
   return (
@@ -13,7 +14,7 @@ export default function Welcome() {
           <Typography>
             Desenvolvedora Front-end | Vue.js | React
           </Typography>
-          
+
           <div className="buttons">
             <Button variant="contained">LinkeIn</Button>
             <Button variant="contained">GitHub</Button>
@@ -22,7 +23,7 @@ export default function Welcome() {
         </div>
 
         <div>
-          <img src="public/img/foto.png" alt="Minha Foto" width={500} />
+          <img src={foto} alt="Minha Foto" width={500} />
         </div>
       </div>
     </>
