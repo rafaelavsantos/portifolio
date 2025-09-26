@@ -15,7 +15,7 @@ export default function Welcome() {
       <Button variant="contained" title="ainda vou implementar">Download CV</Button>
       </div>
       <div>
-        <img src="src/assets/img/eu.jpeg" alt="Minha Foto" width={500}/>
+        <img src="public/img/eu.jpeg" alt="Minha Foto" width={500}/>
       </div>
     </>
   )
