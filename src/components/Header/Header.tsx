@@ -6,7 +6,7 @@ export default function Header() {
       <div className='container-header'>
         <div className='logo'>
           <a href="#" target="_self">
-            Rafa.
+            Rafaela.
           </a>
         </div>
         <div className="nav">
