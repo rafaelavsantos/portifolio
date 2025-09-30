@@ -1,12 +1,12 @@
 // import './Footer.css'
 
+import { Box, Typography } from "@mui/material";
+
 export default function Footer() {
   return (
-    <>
-      <div>
-        <p>&copy; 2025 Rafaela Virgens Santos</p>
-      </div>
-    </>
+    <Box component="section" sx={{backgroundColor: '#001B5E', color: '#fff', height: 100, display: 'flex', alignItems: 'center', justifyContent: 'center'}}> 
+      <Typography variant="subtitle2">&copy; 2025 Rafaela Virgens Santos</Typography>
+    </Box>
   )
 }
 
