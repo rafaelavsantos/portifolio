@@ -27,7 +27,7 @@ const TechChip = styled(Typography)`
 
 export default function About() {
   return (
-    <Box component="section" sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', px: 8, my: 4, borderBottom: '1px solid #ccc' }}>
+    <Box component="section" sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', px: 8, my: 4, borderBottom: '1px solid #ccc' }} id="about">
       <Typography variant="h2" sx={{ fontSize: '1.5em', fontWeight: 'bold', pb: 2 }}>Sobre mim</Typography>
 
       <Typography variant="body1" sx={{ textAlign: 'center' }}>

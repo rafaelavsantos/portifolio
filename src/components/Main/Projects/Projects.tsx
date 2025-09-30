@@ -4,7 +4,7 @@ import loginSgl from '../../../assets/img/sgl/1.png';
 
 export default function Projects() {
   return (
-    <Box component='section' sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', py: 4  }}>
+    <Box component='section' sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', py: 4  }} id='projects'>
       <Typography variant="h2" sx={{ fontSize: '1.5em', fontWeight: 'bold', pb: 2 }}>Projetos</Typography>
       <Box component='section' sx={{display: 'flex', gap: 2}}>
         {/* Adicionar o efeito de carrosel nas imagens */}
