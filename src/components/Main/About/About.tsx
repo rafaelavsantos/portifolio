@@ -34,7 +34,7 @@ export default function About() {
         Sou uma Desenvolvedora Front-end, atualmente aprofundando meus conhecimentos em frontend com Vuetify. Busco construir aplicações modernas, escaláveis e bem estruturadas, aplicando boas práticas e explorando diferentes tecnologias. Tenho experiência em projetos pessoais, como sistemas de organização de leituras e gerenciamento de cuidados para pets, que me ajudam a aplicar na prática conceitos de CRUD, autenticação, banco de dados e integrações. Sou dedicada, organizada e tenho como meta me tornar uma desenvolvedora Full-Stack futuramente, unindo prática constante, projetos reais e atualização contínua. Além da programação, também estou investindo no estudo do inglês para expandir minhas oportunidades profissionais.
       </Typography>
 
-      <Stack spacing={2} direction="row" flexWrap="wrap" sx={{py: 4}}>
+      <Stack spacing={2} direction="row" flexWrap="wrap" gap={2} alignItems="center" justifyContent="center" sx={{py: 4}}>
         {techs.map((tech) => (
           <TechChip variant="button" gutterBottom sx={{ px: 2, py: 1}} key={tech}>{tech}</TechChip>
         ))}

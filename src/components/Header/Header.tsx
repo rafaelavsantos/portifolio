@@ -1,5 +1,4 @@
 import { Box, Button, Stack } from '@mui/material'
-import './Header.css'
 import styled from 'styled-components'
 
 const ContainerHeader = styled(Box)`
