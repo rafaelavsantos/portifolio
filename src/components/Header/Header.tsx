@@ -28,7 +28,7 @@ export default function Header() {
       </Box>
       
       <Stack spacing={2} direction="row" flexWrap="wrap" sx={{ py: 4, color: '#fff' }}>
-        <Button href="#home" sx={{ color: '#fff' }}>Home</Button>
+        <Button href="#home" sx={{ color: '#fff', pl: 3 }}>Início</Button>
         <Button href="#about" sx={{ color: '#fff' }}>Sobre mim</Button>
         <Button href="#projects" sx={{ color: '#fff' }}>Projetos</Button>
       </Stack>
